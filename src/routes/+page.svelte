@@ -59,42 +59,51 @@
 	<div class="mx-auto w-full max-w-6xl">
 		<h2 class="text-4xl lg:text-5xl font-semibold text-red-500 text-center mb-12">Ventajas de ser un Krak</h2>
 		<div bind:this={featuresCarousel} class="overflow-x-scroll flex px-[calc((100vw-20rem)/2)] lg:px-0 no-scrollbar snap-x snap-mandatory lg:grid lg:grid-cols-3 lg:place-content-center mb-8">
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center relative">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-7xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-1.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-sm text-center max-w-64 mx-auto">Visibilidad destacada en los portales inmobiliarios más importantes del país</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-sm max-w-64">Visibilidad destacada en los portales inmobiliarios más importantes del país</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Obtene visibilidad destacada en los portales inmobiliarios más importantes del país.</p>
 				<button on:click={()=>{featuresCarousel.scrollBy({behavior: 'smooth', left: 1})}} class="absolute lg:hidden bottom-4 right-4 flex items-center gap-2 font-bold">Ver más <span class="text-3xl icon-[tabler--hand-move]"></span></button>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-7xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-2.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Exposición de tu cartera<br /> en redes sociales</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Exposición de tu cartera<br /> en redes sociales</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Adaptamos tu cartera a piezas de redes sociales para mayor alcance.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-7xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-3.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Comisiones<br /> más justas</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Comisiones<br /> más justas</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Valoramos tu esfuerzo y reconocemos tus habilidades. Sabemos que tu dedicación es fundamental para alcanzar el éxito juntos.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-7xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-4.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Asistencia en el desarrollo<br /> de tu marca personal</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Asistencia en el desarrollo<br /> de tu marca personal</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Capacitación especializada, mentoría personalizada y recursos de marketing avanzados para fortalecer tu marca personal.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-6xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-5.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Capacitaciones<br /> constantes</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Capacitaciones<br /> constantes</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Programas continuos para mantenerte actualizado en el rubro. No creemos en aprender por aprender, queremos que tengas resultados.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-7xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-6.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Bonificaciones<br /> por objetivos</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Bonificaciones<br /> por objetivos</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Obtén bonificaciones al alcanzar tus metas. Gana más con cada objetivo cumplido.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-7xl group-hover:text-white text-red-500 transition-all"><span class="[mask-image:url(/svg/feature-7.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Ambiente profesional<br /> y desafiante</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Ambiente profesional<br /> y desafiante</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Entorno de compañerismo y colaboración con profesionales de experiencia.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-6xl group-hover:text-white text-red-500 transition-all pt-4"><span class="[mask-image:url(/svg/feature-8.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Infraestructura</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Infraestructura</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Oficina totalmente equipada con soporte adminsitrativo, salas de reuniones, terraza y comedor.</p>
 			</div>
-			<div class="hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
+			<div class="group overflow-hidden relative hover:bg-red-500 rounded-3xl min-w-64 px-4 pb-16 lg:pb-10 lg:px-10 p-10 hover:text-white transition-all group snap-always snap-center">
 				<div class="h-16 w-fit mx-auto mb-8 text-5xl group-hover:text-white text-red-500 transition-all pt-4"><span class="[mask-image:url(/svg/feature-9.svg)] [mask-repeat:no-repeat] [mask-size:100%_100%] inline-block bg-current h-[1em] w-[1em]"></span></div>
-				<p class="text-center mx-auto text-lg">Cultura<br /> emprendedora</p>
+				<p class="group-hover:translate-y-64 transition-all text-center mx-auto text-lg">Cultura<br /> emprendedora</p>
+				<p class="absolute group-hover:translate-y-0 translate-y-64 top-32 mt-2 text-center inset-x-0 text-sm transition-all max-w-52 lg:max-w-64 mx-auto text-balance !text-white">Desarrolla tu iniciativa y habilidades de liderazgo. Son emprendedores quienes lideran el mercado.</p>
 			</div>
 		</div>
 	</div>
