@@ -37,7 +37,7 @@
 	<div class="drop-shadow-2xl">
 		<h1 class="text-5xl lg:text-6xl font-bold mb-4 mt-24">Convertite en un Krak.</h1>
 		<p class="mb-8">Unite a nosotros y transformá tu carrera profesional.</p>
-		<a href="/" class="block bg-red-500 hover:bg-black text-white uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero empezar </a>
+		<a href="#contacto" class="block bg-red-500 hover:bg-black text-white uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero empezar </a>
 	</div>
 	<a href="#banner-1" class="absolute bottom-8 right-8 flex flex-col items-center gap-4">
 		<span class="text-sm">SCROLL</span>
@@ -107,7 +107,7 @@
 			</div>
 		</div>
 	</div>
-	<a href="/" class="block bg-red-500 hover:bg-black text-white uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero ser un Krak </a>
+	<a href="#contacto" class="block bg-red-500 hover:bg-black text-white uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero ser un Krak </a>
 </section>
 
 <section class="pt-20 pb-24 bg-[#313B51]">
@@ -116,7 +116,7 @@
 		<p class="font-medium mb-4 text-gray-100">Te contamos en pocos minutos</p>
 	</div>
 	<div class="max-w-4xl w-full mx-auto rounded-3xl aspect-video bg-black drop-shadow-2xl shadow-2xl mb-12"></div>
-	<a href="/" class="block bg-white hover:bg-black hover:text-white text-red-500 uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero ser un Krak </a>
+	<a href="#contacto" class="block bg-white hover:bg-black hover:text-white text-red-500 uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero ser un Krak </a>
 </section>
 
 <section class="bg-white py-20 relative">
@@ -177,6 +177,57 @@
 			<p class="text-sm text-red-100">
 				No nos conformamos nunca, siempre vamos por más. Somos seres de objetivos, si algún día consideramos que llegamos a lo que queremos ser, será el día que dejaremos de existir. El camino es claro, siempre para arriba y adelante, nunca para atrás. En los momentos de que logramos nuestros objetivos, son los momentos de mayor humildad, siempre hay alguien mejor que nosotros, pero te vamos a
 				alcanzar.
+			</p>
+		</div>
+
+
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">05</h3>
+			<h4 class="font-bold text-2xl mb-4">Responsabilidad</h4>
+			<p class="text-sm text-red-100">
+				Definimos responsabilidad, como la habilidad de responder por nuestros actos. No apuntamos con el dedo, sino que aceptamos sin ego y sin emoción la habilidad de respuesta de nuestros actos. No existen los reproches, sino nuevos problemas a resolver. Somos un equipo, si uno falla, no fue culpa de una persona, es culpa de todos. Estamos jugando y lo hacemos en serio.
+			</p>
+		</div>
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">06</h3>
+			<h4 class="font-bold text-2xl mb-4">Disciplina</h4>
+			<p class="text-sm text-red-100">
+				Cuando las cosas no salen, no entrometerse a la emoción en el medio. Corremos a un lado y atacamos el problema, corregimos y ejecutamos. La disciplina nos permite cumplir con lo que dijimos que íbamos a hacer, le da validez a nuestra palabra para que sea escuchada. La palabra es el capital más importante que tenemos para con nosotros mismos y el cliente.
+			</p>
+		</div>
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">07</h3>
+			<h4 class="font-bold text-2xl mb-4">Iniciativa</h4>
+			<p class="text-sm text-red-100">
+				No esperamos que otra persona nos diga qué hacer. cuando necesita hacerse, se hace y punto. Ejecutamos en unidad las tareas de cada uno. Nuestro equipo es nuestra comunidad, si queremos que las cosas cambien tenemos que tomar la iniciativa, desde cumplir con las tareas, ayudar al compañero, ordenar el puesto de trabajo, colaborar con la limpieza y otros. Como hacer una cosa, haces todo.
+			</p>
+		</div>
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">08</h3>
+			<h4 class="font-bold text-2xl mb-4">Buen clima de trabajo</h4>
+			<p class="text-sm text-red-100">
+				Parte de nuestro trabajo es generar un buen clima laboral, para ello tenemos que apoyar a nuestro compañero, desde lo personal y lo profesional. No dejemos a nadie atrás. Somos un equipo y pasamos mucho tiempo juntos, los lazos entre las personas crean equipos fuertes, es parte de nuestro trabajo hacerlo.
+			</p>
+		</div>
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">09</h3>
+			<h4 class="font-bold text-2xl mb-4">Aprendemos todo el tiempo</h4>
+			<p class="text-sm text-red-100">
+				Invertimos tiempo en nosotros para ser cada día mejores, pero no para nosotros sino para los demás. Una mejor performance eleva la vara. Nuestro desarrollo personal trae beneficios a quienes nos rodean, es por eso que tenemos que ser mejores por nuestra cuenta primero para que el grupo sea mejor. Cualquiera puede ser parte de un equipo de corderos, ser parte de un equipo de leones es el verdadero desafío.
+			</p>
+		</div>
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">10</h3>
+			<h4 class="font-bold text-2xl mb-4">Dar sin agenda</h4>
+			<p class="text-sm text-red-100">
+				Hacemos lo correcto y no lo que es más cómodo. Vamos por todo sin esperar nada a cambio. Agregamos valor sin el ego de buscar reconocimiento, los logros de un compañero son los logros del equipo. Cuando logramos un objetivo lo celebramos todo porque el éxito de un compañero eleva el estándar de calidad del resto.
+			</p>
+		</div>
+		<div class="bg-red-500 text-white rounded-3xl w-80 min-w-80 px-8 pt-7 pb-16 snap-always snap-center">
+			<h3 class="font-thin text-5xl font-inter text-red-200 mb-4">11</h3>
+			<h4 class="font-bold text-2xl mb-4">Los ojos en el objetivo</h4>
+			<p class="text-sm text-red-100">
+				Siempre miramos el cuadro completo. No trabajamos solo para hacer sino también para parecer. Sabemos a dónde queremos ir y estamos dispuestos a hacer lo necesario para llegar al objetivo. La tenacidad y la disciplina siempre la pagan a largo plazo. No tenemos FE en que vamos a ser mejores, tenemos absoluta CERTEZA de que lo somos y vamos por mas.
 			</p>
 		</div>
 	</div>
@@ -260,7 +311,7 @@
 	</ul>
 </section>
 
-<section class="pt-20 pb-24 bg-[#313B51]" id="contact">
+<section class="pt-20 pb-24 bg-[#313B51]" id="contacto">
 	<div class="flex flex-col-reverse items-center text-white mb-12 lg:mb-20">
 		<h2 class="text-4xl lg:text-5xl font-bold text-center">Queremos <br class="lg:hidden"> conocerte</h2>
 	</div>
