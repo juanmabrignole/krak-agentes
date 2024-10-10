@@ -56,7 +56,7 @@ openGraph={{
     <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
 </svelte:head>
 
-<header class="max-w-6xl mx-auto w-full px-4 h-36 flex items-center justify-between *:z-10 -mb-36">
+<header class="max-w-6xl mx-auto w-full px-4 h-24 sm:h-36 flex items-center justify-between *:z-10 -mb-24 sm:-mb-36">
     <img src="/svg/iso-white.svg" class="h-16 object-contain" alt="" />
     <div class="flex items-center text-2xl gap-3 text-white">
         <a href="https://www.instagram.com/krak.realestate/" class="hover:text-red-300 icon-[mdi--instagram]"> </a>
@@ -95,7 +95,7 @@ openGraph={{
             <h2 class="uppercase text-sm mb-8">Suscribite al newsletter</h2>
             <div class="block group-then:hidden">
                 <label class="text-gray-500 mb-2 relative flex group-await:opacity-50">
-                    <input class="rounded-lg peer pt-5 pb-1 px-4 w-full font-semibold" type="email" placeholder="" maxlength="255" name="email" required> 
+                    <input class="rounded-lg peer pt-5 pb-1 px-4 w-full font-semibold" type="email" placeholder=" " maxlength="255" name="email" required> 
                     <span class="absolute peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base peer-focus:text-xs peer-focus:top-1.5 peer-focus:text-gray-500 text-gray-500 text-xs left-4 top-1.5 transition-all">Email</span>
                 </label>
                 <button class="ml-auto text-black group/button px-4 py-3 bg-white hover:bg-red-300 rounded-lg group-await:bg-red-300 font-semibold *:overflow-hidden flex items-center justify-center" type="submit">
