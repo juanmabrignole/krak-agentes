@@ -42,18 +42,6 @@ openGraph={{
 
 />
 <svelte:head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-366793118">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-366793118');
-    </script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LcE9jsqAAAAAOyzMhfoTOA-G0kI6kCxadXeFwME"></script>
-
     <link rel="preload" href="/fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
