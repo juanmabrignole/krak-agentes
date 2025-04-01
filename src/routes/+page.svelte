@@ -117,11 +117,9 @@
 		<p class="font-medium mb-4 text-gray-100">Te contamos en pocos minutos</p>
 	</div>
 	<div class="max-w-4xl w-full mx-auto rounded-3xl aspect-video bg-black drop-shadow-2xl shadow-2xl mb-12 overflow-hidden">
-		<video class="w-full h-full" controls preload="none" poster="/thumbnail.jpeg">
-			<track kind="captions"/>
-			<source src="/que_es_ser_un_krak.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
+		
+		
+		<iframe class="w-full h-full" src="https://www.youtube.com/embed/WU7-MjIm6ek" title="Krak Invitación Agentes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	</div>
 	<a href="#contacto" class="block bg-white hover:bg-black hover:text-white text-red-500 uppercase rounded-full w-fit mx-auto py-6 px-14 font-bold text-sm"> Quiero ser un Krak </a>
 </section>
@@ -138,7 +136,7 @@
 				aboutUsCarousel.scrollBy({ behavior: 'smooth', left: -360 });
 			}}
 			bind:this={prevButton}
-			class="absolute size-16 z-10 hidden bg-white hover:bg-black hover:text-white rounded-full grid place-content-center drop-shadow-2xl top-[24rem] left-12"><span class="icon-[tabler--chevron-left] text-3xl"></span></button>
+			class="absolute size-16 z-10 bg-white hover:bg-black hover:text-white rounded-full grid place-content-center drop-shadow-2xl top-[24rem] left-12"><span class="icon-[tabler--chevron-left] text-3xl"></span></button>
 		<button
 			on:click={() => {
 				aboutUsCarousel.scrollBy({ behavior: 'smooth', left: 360 });
