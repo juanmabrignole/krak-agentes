@@ -1,6 +1,5 @@
 <script lang="ts">
     import "../app.css"
-    import SEO from 'svelte-seo'
 
     async function handleNewsLetter(e: SubmitEvent & {
         currentTarget: EventTarget & HTMLFormElement;
@@ -11,7 +10,7 @@
         let body = JSON.stringify(form)
         target.classList.add('await')
         try {
-            let res = await fetch('https://n8n-krak.com/webhook/newsletter', { method: 'POST', body })
+            let res = await fetch('https://n8n-krak.com/webhook/newsletter  ', { method: 'POST', body })
             console.log(res)
             if (res.ok) {
                 target.classList.add('then')
@@ -25,28 +24,25 @@
     }
 </script>
 
-<SEO
-title="Agentes | Krak Real Estate"
-description="Comercializamos bienes raíces de una manera diferente."
-canonical="https://www.krak.com.ar/"
-keywords="real estate, marketing"
-openGraph={{
-  title: "Agentes | Krak Real Estate",
-  description: "Comercializamos bienes raíces de una manera diferente.",
-  //@ts-ignore
-  image: "https://www.krak.com.ar/og.jpg",
-  url: "https://www.krak.com.ar/",
-  type: "website",
-  site_name: "Krak Real Estate",
-}}
+<svelte:head>
+    <title>Agentes | Krak Real Estate</title>
+    <meta name="description" content="Comercializamos bienes raíces de una manera diferente." />
+    <meta name="keywords" content="real estate, marketing" />
+    <meta property="og:title" content="Agentes | Krak Real Estate" />
+    <meta property="og:description" content="Comercializamos bienes raíces de una manera diferente." />
+    <meta property="og:image" content="https://www.krak.com.ar/og.jpg" />
+    <meta property="og:url" content="https://www.krak.com.ar/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Krak Real Estate" />
+    <link rel="canonical" href="https://www.krak.com.ar/" />
+</svelte:head>
 
-/>
+<!-- Tus preloads de fuentes (mantenemos esto) -->
 <svelte:head>
     <link rel="preload" href="/fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
-
     <link rel="preload" href="/fonts/Inter-Black.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
@@ -57,10 +53,10 @@ openGraph={{
 <header class="max-w-6xl mx-auto w-full px-4 h-24 sm:h-36 flex items-center justify-between *:z-10 -mb-24 sm:-mb-36">
     <img src="/svg/iso-white.svg" class="h-16 object-contain" alt="" />
     <div class="flex items-center text-2xl gap-3 text-white">
-        <a href="https://www.instagram.com/krak.realestate/" class="hover:text-red-300 icon-[mdi--instagram]"> </a>
-        <a href="https://www.tiktok.com/@krak.realestate" class="hover:text-red-300 icon-[ic--baseline-tiktok]"> </a>
-        <a href="https://www.linkedin.com/company/krakre/" class="hover:text-red-300 icon-[mdi--linkedin]"> </a>
-        <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw" class="hover:text-red-300 icon-[mdi--youtube]"> </a>
+        <a href="https://www.instagram.com/krak.realestate/  " class="hover:text-red-300 icon-[mdi--instagram]"> </a>
+        <a href="https://www.tiktok.com/@krak.realestate  " class="hover:text-red-300 icon-[ic--baseline-tiktok]"> </a>
+        <a href="https://www.linkedin.com/company/krakre/  " class="hover:text-red-300 icon-[mdi--linkedin]"> </a>
+        <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw  " class="hover:text-red-300 icon-[mdi--youtube]"> </a>
     </div>
 </header>
 
@@ -83,10 +79,10 @@ openGraph={{
             <a class="flex items-center text-lg gap-2 hover:text-red-300 mb-2 font-semibold tracking-wider" href="tel:+541138882095"><span class="icon-[mdi--phone] text-2xl"></span><span>11 3888-2095</span></a>
             <a class="flex items-center text-lg gap-2 hover:text-red-300 mb-3 font-semibold tracking-wider" href="mailto:info@krak.com.ar"><span class="icon-[mdi--email] text-2xl"></span><span>info@krak.com.ar</span></a>
             <div class="flex items-center text-2xl gap-3">
-                <a href="https://www.instagram.com/krak.realestate/" class="hover:text-red-300 icon-[mdi--instagram]"> </a>
-                <a href="https://www.tiktok.com/@krak.realestate" class="hover:text-red-300 icon-[ic--baseline-tiktok]"> </a>
-                <a href="https://www.linkedin.com/company/krakre/" class="hover:text-red-300 icon-[mdi--linkedin]"> </a>
-                <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw" class="hover:text-red-300 icon-[mdi--youtube]"> </a>
+                <a href="https://www.instagram.com/krak.realestate/  " class="hover:text-red-300 icon-[mdi--instagram]"> </a>
+                <a href="https://www.tiktok.com/@krak.realestate  " class="hover:text-red-300 icon-[ic--baseline-tiktok]"> </a>
+                <a href="https://www.linkedin.com/company/krakre/  " class="hover:text-red-300 icon-[mdi--linkedin]"> </a>
+                <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw  " class="hover:text-red-300 icon-[mdi--youtube]"> </a>
             </div>
         </div>
         <form class="group flex flex-col sm:col-start-2 md:col-start-auto sm:mt-8 md:mt-0" on:submit|preventDefault={handleNewsLetter}> 
