@@ -56,10 +56,10 @@
 <header class="max-w-6xl mx-auto w-full px-4 h-24 sm:h-36 flex items-center justify-between *:z-10 -mb-24 sm:-mb-36">
     <img src="/svg/iso-white.svg" class="h-16 object-contain" alt="Krak Real Estate" />
     <div class="flex items-center text-2xl gap-3 text-white">
-        <a href="https://www.instagram.com/krak.realestate/" aria-label="Instagram de Krak Real Estate" class="hover:text-red-300 icon-[mdi--instagram]"> </a>
-        <a href="https://www.tiktok.com/@krak.realestate" aria-label="TikTok de Krak Real Estate" class="hover:text-red-300 icon-[ic--baseline-tiktok]"> </a>
-        <a href="https://www.linkedin.com/company/krakre/" aria-label="LinkedIn de Krak Real Estate" class="hover:text-red-300 icon-[mdi--linkedin]"> </a>
-        <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw" aria-label="YouTube de Krak Real Estate" class="hover:text-red-300 icon-[mdi--youtube]"> </a>
+        <a href="https://www.instagram.com/krak.realestate/" aria-label="Instagram de Krak Real Estate" class="hover:text-red-300 icon-[mdi--instagram]" target="_blank" rel="noopener noreferrer"> </a>
+        <a href="https://www.tiktok.com/@krak.realestate" aria-label="TikTok de Krak Real Estate" class="hover:text-red-300 icon-[ic--baseline-tiktok]" target="_blank" rel="noopener noreferrer"> </a>
+        <a href="https://www.linkedin.com/company/krakre/" aria-label="LinkedIn de Krak Real Estate" class="hover:text-red-300 icon-[mdi--linkedin]" target="_blank" rel="noopener noreferrer"> </a>
+        <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw" aria-label="YouTube de Krak Real Estate" class="hover:text-red-300 icon-[mdi--youtube]" target="_blank" rel="noopener noreferrer"> </a>
     </div>
 </header>
 
@@ -88,10 +88,10 @@
                 <span>info@krak.com.ar</span>
             </a>
             <div class="flex items-center text-2xl gap-3">
-                <a href="https://www.instagram.com/krak.realestate/" aria-label="Instagram de Krak Real Estate" class="hover:text-red-300 icon-[mdi--instagram]"> </a>
-                <a href="https://www.tiktok.com/@krak.realestate" aria-label="TikTok de Krak Real Estate" class="hover:text-red-300 icon-[ic--baseline-tiktok]"> </a>
-                <a href="https://www.linkedin.com/company/krakre/" aria-label="LinkedIn de Krak Real Estate" class="hover:text-red-300 icon-[mdi--linkedin]"> </a>
-                <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw" aria-label="YouTube de Krak Real Estate" class="hover:text-red-300 icon-[mdi--youtube]"> </a>
+                <a href="https://www.instagram.com/krak.realestate/" aria-label="Instagram de Krak Real Estate" class="hover:text-red-300 icon-[mdi--instagram]" target="_blank"> </a>
+                <a href="https://www.tiktok.com/@krak.realestate" aria-label="TikTok de Krak Real Estate" class="hover:text-red-300 icon-[ic--baseline-tiktok]" target="_blank"> </a>
+                <a href="https://www.linkedin.com/company/krakre/" aria-label="LinkedIn de Krak Real Estate" class="hover:text-red-300 icon-[mdi--linkedin]" target="_blank"> </a>
+                <a href="https://www.youtube.com/channel/UCx5MEQ0uTFHNaaoGOVGFFSw" aria-label="YouTube de Krak Real Estate" class="hover:text-red-300 icon-[mdi--youtube]" target="_blank"> </a>
             </div>
         </div>
         <form class="group flex flex-col sm:col-start-2 md:col-start-auto sm:mt-8 md:mt-0" on:submit|preventDefault={handleNewsLetter}> 
