@@ -77,12 +77,14 @@
         controls
         preload="metadata"
         muted
-        playsinline
-      >
+        playsinline>
         <source src="/Masterclasslanding.mp4" type="video/mp4">
         Tu navegador no soporta el elemento de video.
       </video>
-      
+      </div>
+      </div>
+</section>
+
 <!-- Countdown con fondo blanco y números grandes -->
 <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
   <div class="max-w-4xl mx-auto text-center">
@@ -104,12 +106,11 @@
         <span class="text-7xl">{seconds}</span>
         <span class="text-lg font-normal mt-2 text-gray-600">segundos</span>
       </div>
->>>>>>> 4bb7654cedb5f119ba46651ebd272decfbcf96a1
+
     </div>
   </div>
 </section>
 
-<<<<<<< HEAD
 <!-- Countdown con fondo blanco y números grandes -->
 <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
   <div class="max-w-4xl mx-auto text-center">
@@ -135,8 +136,6 @@
   </div>
 </section>
 
-=======
->>>>>>> 4bb7654cedb5f119ba46651ebd272decfbcf96a1
 <!-- Formulario de inscripción con fondo azul claro -->
 <section id="formulario" class="py-20 px-4 sm:px-6 lg:px-8 bg-[#f0f4f8]"> <!-- Fondo azul claro -->
   <div class="max-w-3xl mx-auto">
