@@ -73,14 +73,14 @@
     <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center font-inter">🎥 Video de Marcelo invitando a la Masterclass</h2>
     <div class="aspect-video bg-black rounded-xl overflow-hidden">
       <video
-        class="w-full h-full object-cover"
-        controls
-        preload="metadata"
-        muted
-        playsinline>
-        <source src="/Masterclasslanding.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-      </video>
+  class="w-full h-full object-cover"
+  controls
+  preload="metadata"
+  muted
+  playsinline>
+  <source src="Masterclasslanding.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
       </div>
       </div>
 </section>
